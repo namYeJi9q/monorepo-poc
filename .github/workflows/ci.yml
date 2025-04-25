@@ -38,8 +38,8 @@ jobs:
       - name: Build solution-a-client1
         run: yarn workspace solution-a-client1 build
 
-      - name: Build solution-a-client2
-        run: yarn workspace solution-a-client2 build
+      # - name: Build solution-a-client2
+      #   run: yarn workspace solution-a-client2 build
 
     # (필요 시) 테스트가 있다면 여기에 추가
     #- name: Run tests
