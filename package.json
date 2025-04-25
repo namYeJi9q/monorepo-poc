@@ -13,8 +13,7 @@
     "storybook": "yarn workspace common-ui storybook",
     "build": "yarn workspaces run build",
     "build:core": "yarn workspace solution-a-core build",
-    "build:client1": "yarn workspace solution-a-client1 build",
-    "build:client2": "yarn workspace solution-a-client2 build"
+    "build:client1": "yarn workspace solution-a-client1 build"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
