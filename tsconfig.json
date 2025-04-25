@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "solution-a-core": ["packages/solution-a/solution-a-core/src"],
+      "common-ui": ["packages/common-ui/dist"]
+    },
+    "types": ["node", "react", "react-dom"]
+  },
+  "include": ["packages/**/src", "packages/**/.storybook"]
+}

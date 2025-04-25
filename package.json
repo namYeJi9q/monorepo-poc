@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "namYeJi9q <nyj5850@naver.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "bootstrap": "yarn install",
+    "storybook": "yarn workspace common-ui storybook",
+    "build": "yarn workspaces run build",
+    "build:core": "yarn workspace solution-a-core build",
+    "build:client1": "yarn workspace solution-a-client1 build",
+    "build:client2": "yarn workspace solution-a-client2 build"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

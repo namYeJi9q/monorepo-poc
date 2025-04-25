@@ -1,0 +1,29 @@
+{
+  "name": "solution-a-core",
+  "version": "0.1.0",
+  "main": "dist/solution-a-core.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "scripts": {
+    "build": "tsc -b && vite build"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@typescript-eslint/parser": "^5.0.1",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^8.52.0",
+    "prettier": "^3.1.0",
+    "prettier-eslint": "^16.1.2",
+    "typescript": "^4.4.4",
+    "vite": "^6.3.3"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
